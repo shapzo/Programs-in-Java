@@ -46,7 +46,7 @@ public class consulta extends JFrame {
 	Checkbox c3 = new Checkbox("Progeria");
 	Checkbox c4 = new Checkbox("Elefantiasis");
 	Checkbox c5 = new Checkbox("Argiria");
-	Checkbox c6 = new Checkbox("Tricotilomanía");
+	Checkbox c6 = new Checkbox("Tricotilomanï¿½a");
 
 	protected String[] reseta;
 
@@ -69,13 +69,13 @@ public class consulta extends JFrame {
 		Nombre = new JLabel();
 		Gif = new JLabel();
 
-		Logo = new JLabel(new ImageIcon("logo.jpg")); /* imagen del logo del consultorio */
-		Nombre = new JLabel(new ImageIcon("nombre2.png")); /* imagen del nobre del consultorio CAMBIRA EL FONOD */
+		Logo = new JLabel(new ImageIcon("Img/logo.jpg")); /* imagen del logo del consultorio */
+		Nombre = new JLabel(new ImageIcon("Img/nombre2.png")); /* imagen del nobre del consultorio CAMBIRA EL FONOD */
 		Gif = new JLabel(new ImageIcon()); /* imagen del gif alucivo al sars cov II CAMBIAR EL FONODO */
 
 		/*-----------------------------area de pago y salida-----------------------------*/
 
-		salir = new JButton(new ImageIcon("atras (1).png"));
+		salir = new JButton(new ImageIcon("Img/atras (1).png"));
 		costo = new JTextField();
 		cost = new JLabel("El presio a pagar es: ");
 		Total = new JButton("Total");
@@ -103,8 +103,8 @@ public class consulta extends JFrame {
 		Limpiar.setBackground(new java.awt.Color(8, 173, 100));
 		Impri.setBackground(new java.awt.Color(8, 173, 100));
 		/*--------------------------------primera parte------------------------------*/
-		nom = new JLabel("Nombre´s: ");
-		apll = new JLabel("Apellidos´s: ");
+		nom = new JLabel("Nombreï¿½s: ");
+		apll = new JLabel("Apellidosï¿½s: ");
 		no = new JTextField();
 		apl = new JTextField();
 
@@ -153,7 +153,7 @@ public class consulta extends JFrame {
 		estado.setFont(new java.awt.Font("Comic Sans MS", 2, 20));
 
 		/*----------------------------------ultima parte-------------------------------------*/
-		enfcro = new JLabel("¿Esta contagiado del coronavirus? ");
+		enfcro = new JLabel("ï¿½Esta contagiado del coronavirus? ");
 
 		a1.setForeground(Color.black);
 		a1.setFont(new java.awt.Font("Comic Sans MS", 2, 14));
@@ -171,7 +171,7 @@ public class consulta extends JFrame {
 
 		/*--------------------------------------------acciones de los botones--------------*/
 
-		sintoma.addActionListener(new ActionListener() { // añadir a la lista
+		sintoma.addActionListener(new ActionListener() { // aï¿½adir a la lista
 			public void actionPerformed(ActionEvent v) {
 
 				c1.setFont(new java.awt.Font("Comic Sans MS", 2, 18));
@@ -259,7 +259,7 @@ public class consulta extends JFrame {
 					ro.write("-----------LIFE LINE MEDICAL---------- -\n");
 					ro.write("-------EL PRECIO A PAGAR ES: -----------\n");
 					ro.write("-------" + costo.getText() + " pesos---------------------\n");
-					ro.write("-------senñor@: " + no.getText() + "-----------------\n");
+					ro.write("-------senï¿½or@: " + no.getText() + "-----------------\n");
 					ro.write("-------con apellidos: " + apl.getText() + "------\n");
 					ro.write("-------Grasias por su preferencia-------");
 					ro.close();

@@ -41,8 +41,8 @@ public class Programa3 extends JFrame {
 		Container zona = getContentPane();
 		zona.add(p);
 
-		boton = new JButton(new ImageIcon("medico.png")); /* boton de cita medica */
-		boton1 = new JButton(new ImageIcon("reseta.png")); /* boton de receta */
+		boton = new JButton(new ImageIcon("Img/medico.png")); /* boton de cita medica */
+		boton1 = new JButton(new ImageIcon("Img/reseta.png")); /* boton de receta */
 
 		String texto = "Ir a consulta";
 		boton.setToolTipText(texto);
@@ -67,18 +67,18 @@ public class Programa3 extends JFrame {
 
 		fondo = new JLabel();
 
-		Logo = new JLabel(new ImageIcon("logo.jpg")); /* imagen del logo del consultorio */
-		Nombre = new JLabel(new ImageIcon("nombre.png")); /* imagen del nobre del consultorio */
-		Gif1 = new JLabel(new ImageIcon("corona.gif"));
-		Gif2 = new JLabel(new ImageIcon("corn2.jpg"));
-		Gif3 = new JButton(new ImageIcon("susan.png")); /* imagen del gif alucivo al sars cov II */
+		Logo = new JLabel(new ImageIcon("Img/logo.jpg")); /* imagen del logo del consultorio */
+		Nombre = new JLabel(new ImageIcon("Img/nombre.png")); /* imagen del nobre del consultorio */
+		Gif1 = new JLabel(new ImageIcon("Img/corona.gif"));
+		Gif2 = new JLabel(new ImageIcon("Img/corn2.jpg"));
+		Gif3 = new JButton(new ImageIcon("Img/susan.png")); /* imagen del gif alucivo al sars cov II */
 
 		Gif3.setBorderPainted(false);
 		Gif3.setContentAreaFilled(false);
 		Gif3.setFocusPainted(false);
 		Gif3.setOpaque(false);
 
-		fondo = new JLabel(new ImageIcon("fondo.jpg")); /* imagen de fondo */
+		fondo = new JLabel(new ImageIcon("Img/fondo.jpg")); /* imagen de fondo */
 
 		boton.setBounds(50, 175, 300, 350); /* posicionamiento de los botones e imagenes */
 		boton1.setBounds(825, 175, 300, 350);
