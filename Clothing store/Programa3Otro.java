@@ -1,5 +1,3 @@
-package POO;
-
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -166,7 +164,7 @@ public class Programa3Otro {
 						System.out.println("Fecha: " + fecha);
 						System.out.println("Transaccion validada por el vendedor: " + vendedor + " por $" + t
 								+ " pesos al banco " + banco + ", numero de tarjeta: " + m);
-						System.out.println("Grasias por su visita señor@ " + nombres + " vuelva pronto");
+						System.out.println("Grasias por su visita seï¿½or@ " + nombres + " vuelva pronto");
 						System.out.println("\n");
 						break;
 					case 2:
@@ -175,7 +173,7 @@ public class Programa3Otro {
 
 						System.out.println("Fecha: " + fecha);
 						System.out.println("Pago validado por el vendedor: " + vendedor + " por $" + t + " pesos.");
-						System.out.println("Grasias por su visita señor@ " + nombres + " vuelva pronto.");
+						System.out.println("Grasias por su visita seï¿½or@ " + nombres + " vuelva pronto.");
 						System.out.println("\n");
 						System.out.println("Imprimir tiked de pago");
 
@@ -197,7 +195,7 @@ public class Programa3Otro {
 							bw.write("-----------Tiked de pago----------------\n");
 							bw.write("-------Servicios de consulta medica ----\n");
 							bw.write("-----------LIFE LINE MEDICAL---------- -\n");
-							bw.write("Señor: \n");
+							bw.write("Seï¿½or: \n");
 							bw.write("-----" + nombres + "----\n");
 							bw.write("El presio a pagar es: \n");
 							bw.write("-----$" + t + "----\n");
@@ -211,7 +209,7 @@ public class Programa3Otro {
 							bw.write("-----------Tiked de pago----------------\n");
 							bw.write("-------Servicios de consulta medica ----\n");
 							bw.write("-----------LIFE LINE MEDICAL---------- -\n");
-							bw.write("Señor: \n");
+							bw.write("Seï¿½or: \n");
 							bw.write("-----" + nombres + "----\n");
 							bw.write("El presio a pagar es: \n");
 							bw.write("-----$" + t + "----\n");
@@ -236,5 +234,5 @@ public class Programa3Otro {
 
 			}
 		} while (a == 0);
-	} // fin de la 2° clase
+	} // fin de la 2ï¿½ clase
 } // fin de la primera clase
