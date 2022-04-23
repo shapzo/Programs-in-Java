@@ -1,4 +1,4 @@
-package POO;
+
 
 import java.awt.*;
 import java.awt.event.*;
@@ -33,8 +33,8 @@ public class Suma extends JFrame {
 
 		zona.add(p);
 
-		etiqueta = new JLabel("Ingrese el 1° numero: ");
-		etiqueta1 = new JLabel("Ingrese el 2° numero: ");
+		etiqueta = new JLabel("Ingrese el 1ï¿½ numero: ");
+		etiqueta1 = new JLabel("Ingrese el 2ï¿½ numero: ");
 		etiqueta2 = new JLabel("Resultado: ");
 
 		campo = new JTextField();
