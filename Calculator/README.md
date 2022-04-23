@@ -5,11 +5,11 @@ It also makes use of Jframe, Jpanel, Jbutton and events.
 
 ## Screenshots
 
-![App Screenshot]()
+![App Screenshot](https://github.com/shapzo/Programs-in-java/blob/main/Calculator/Images/Screenshot/Calcu1.png?raw=true)
 
-![App Screenshot]()
+![App Screenshot](https://github.com/shapzo/Programs-in-java/blob/main/Calculator/Images/Screenshot/Calcu2.png?raw=true)
 
-![App Screenshot]()
+![App Screenshot](https://github.com/shapzo/Programs-in-java/blob/main/Calculator/Images/Screenshot/Calcu3.png?raw=true)
 
 ## Author
 
