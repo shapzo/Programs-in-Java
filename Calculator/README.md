@@ -5,11 +5,11 @@ It also makes use of ***`Jframe`***, ***`Jpanel`***, ***`Jbutton`*** and **event
 
 ## Screenshots
 
-![App Screenshot](https://github.com/shapzo/Programs-in-java/blob/main/Calculator/Images/Screenshot/Calcu1.png?raw=true)
-
-![App Screenshot](https://github.com/shapzo/Programs-in-java/blob/main/Calculator/Images/Screenshot/Calcu2.png?raw=true)
-
-![App Screenshot](https://github.com/shapzo/Programs-in-java/blob/main/Calculator/Images/Screenshot/Calcu3.png?raw=true)
+| Function             | Screenshot                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Main              | ![App Screenshot](https://github.com/shapzo/Programs-in-java/blob/main/Calculator/Images/Screenshot/Calcu1.png?raw=true) |
+| Addition          | ![App Screenshot](https://github.com/shapzo/Programs-in-java/blob/main/Calculator/Images/Screenshot/Calcu2.png?raw=true) |
+| Subtraction       | ![App Screenshot](https://github.com/shapzo/Programs-in-java/blob/main/Calculator/Images/Screenshot/Calcu3.png?raw=true) |
 
 ## Author
 
