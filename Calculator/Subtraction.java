@@ -2,8 +2,6 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-import java.awt.Insets;
-
 public class Subtraction extends JFrame {
 	ButtonGroup grupoDeBotones = new ButtonGroup();
 	JPanel panel;
