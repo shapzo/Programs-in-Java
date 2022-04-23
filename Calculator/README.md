@@ -1,7 +1,7 @@
 # Calculator
 
 This is a program that calculates the basic operations: addition subtraction multiplication and subtraction.
-It also makes use of Jframe, Jpanel, Jbutton and events.
+It also makes use of ***`Jframe`***, ***`Jpanel`***, ***`Jbutton`*** and **events**.
 
 ## Screenshots
 
