@@ -99,8 +99,6 @@ public class Medical_prescription extends JFrame {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-				
-
 			}
 		});
 
