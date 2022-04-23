@@ -67,8 +67,8 @@ public class consulta extends JFrame {
 		Nombre = new JLabel();
 		Gif = new JLabel();
 
-		Logo = new JLabel(new ImageIcon("Img/logo.jpg")); /* imagen del logo del consultorio */
-		Nombre = new JLabel(new ImageIcon("Img/nombre2.png")); /* imagen del nobre del consultorio CAMBIRA EL FONOD */
+		Logo = new JLabel(new ImageIcon("Imges/logo.jpg")); /* imagen del logo del consultorio */
+		Nombre = new JLabel(new ImageIcon("Imges/nombre2.png")); /* imagen del nobre del consultorio CAMBIRA EL FONOD */
 		Gif = new JLabel(new ImageIcon()); /* imagen del gif alucivo al sars cov II CAMBIAR EL FONODO */
 
 		/*-----------------------------area de pago y salida-----------------------------*/
@@ -247,7 +247,7 @@ public class consulta extends JFrame {
 
 		Impri.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent v) {
-				String ruta = "C:\\Users\\Rodrigo\\Desktop\\Tiked_de_pago.txt";
+				String ruta = "/home/rodrigo/Escritorio/tiket.txt";
 				try {
 					File arch = new File(ruta);
 					FileWriter ro = new FileWriter(arch, true);
