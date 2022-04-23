@@ -93,9 +93,8 @@ public class Medical_prescription extends JFrame {
 
 		boton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent v) {
-				consulta open;
 				try {
-					open = new consulta();
+					new consulta();
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
