@@ -7,62 +7,62 @@ import java.util.Scanner;
 public class program1 {
 	public static void main(String[] args) throws IOException {
 		Scanner sc = new Scanner(System.in);
-		String nombre, fecha, vendedor, pago, r, m, banco, preferente, nombres;
-		float d = 0, precio, t = 0;
+		String nombre, Date, vendedor, pago, r, m, banco, preferente, nombres;
+		float d = 0, cost, t = 0;
 		int a = 0, b = 0, q = 0, c = 0, w = 0;
 
-		System.out.println("Tienda de Ropa \n");
-		System.out.println("----------Troncoso----------");
+		System.out.println("Clothing store\n");
+		System.out.println("----------The Penguin----------");
 
-		System.out.println("Clave del vendedor: ");
+		System.out.println("Vendor key: ");
 		vendedor = sc.nextLine();
 
-		System.out.println("Fecha: ");
-		fecha = sc.nextLine();
+		System.out.println("Date: ");
+		Date = sc.nextLine();
 
-		System.out.println("Nombre del cliente: ");
+		System.out.println("Customer name: ");
 		nombres = sc.nextLine();
 
 		do {
-			System.out.println("Departamentos: ");
+			System.out.println("Departments: ");
 
-			System.out.println("1.-Damas");
-			System.out.println("2.-Caballeros");
-			System.out.println("3.-Blancos");
-			System.out.println("4.-Pagar");
-			System.out.println("5.-Salir");
-			System.out.println("Ingrese la opcion deseada");
+			System.out.println("1.-Ladies");
+			System.out.println("2.-Gentlemen");
+			System.out.println("3.-Whites");
+			System.out.println("4.-To pay");
+			System.out.println("5.-Exit");
+			System.out.println("Enter the desired option");
 			int op;
 			op = sc.nextInt();
 			switch (op) {
 			case 1:
 				do {
-					System.out.println("----------Damas---------");
+					System.out.println("---------Ladies---------");
 
-					System.out.println("1.-Blusa");
-					System.out.println("2.-Falda");
-					System.out.println("3.-Medias");
-					System.out.println("4.-Salir");
-					System.out.println("Ingrese el tipo de prenda");
+					System.out.println("1.-Blouse");
+					System.out.println("2.-Skirt");
+					System.out.println("3.-Dress");
+					System.out.println("4.-Exit");
+					System.out.println("Type the number corresponding to the desired garment");
 					op = sc.nextInt();
 					switch (op) {
 					case 1:
-						System.out.println("Blusa");
-						System.out.print("Precio: ");
-						precio = sc.nextFloat();
-						t = t + precio;
+						System.out.println("Blouse");
+						System.out.print("cost: ");
+						cost = sc.nextFloat();
+						t = t + cost;
 						break;
 					case 2:
-						System.out.println("Falda ");
-						System.out.print("Precio: ");
-						precio = sc.nextFloat();
-						t = t + precio;
+						System.out.println("Skirt ");
+						System.out.print("cost: ");
+						cost = sc.nextFloat();
+						t = t + cost;
 						break;
 					case 3:
-						System.out.println("Medias ");
-						System.out.print("Precio: ");
-						precio = sc.nextFloat();
-						t = t + precio;
+						System.out.println("Dress ");
+						System.out.print("cost: ");
+						cost = sc.nextFloat();
+						t = t + cost;
 						break;
 					case 4:
 						b = 1;
@@ -72,32 +72,32 @@ public class program1 {
 				break;
 			case 2:
 				do {
-					System.out.println("----------Caballeros---------");
+					System.out.println("----------Gentlemen---------");
 
-					System.out.println("1.-Camisa");
-					System.out.println("2.-Pantalon");
-					System.out.println("3.-Corbata");
-					System.out.println("4.-Salir");
-					System.out.println("Ingrese el tipo de prenda deseado");
+					System.out.println("1.-Jacket");
+					System.out.println("2.-Jeans");
+					System.out.println("3.-Vest");
+					System.out.println("4.-Exit");
+					System.out.println("Type the number corresponding to the desired garment");
 					op = sc.nextInt();
 					switch (op) {
 					case 1:
-						System.out.println("Camisa");
-						System.out.print("Precio: ");
-						precio = sc.nextFloat();
-						t = t + precio;
+						System.out.println("Jacket");
+						System.out.print("cost: ");
+						cost = sc.nextFloat();
+						t = t + cost;
 						break;
 					case 2:
-						System.out.println("Pantalon ");
-						System.out.print("Precio: ");
-						precio = sc.nextFloat();
-						t = t + precio;
+						System.out.println("Jeans ");
+						System.out.print("cost: ");
+						cost = sc.nextFloat();
+						t = t + cost;
 						break;
 					case 3:
-						System.out.println("Corbata ");
-						System.out.print("Precio: ");
-						precio = sc.nextFloat();
-						t = t + precio;
+						System.out.println("Vest ");
+						System.out.print("cost: ");
+						cost = sc.nextFloat();
+						t = t + cost;
 						break;
 					case 4:
 						c = 1;
@@ -108,32 +108,32 @@ public class program1 {
 
 			case 3:
 				do {
-					System.out.println("----------Blancos---------");
+					System.out.println("----------Whites---------");
 
-					System.out.println("1.-Playera");
-					System.out.println("2.-Calsetines");
-					System.out.println("3.-Calzonsillos/tangas");
-					System.out.println("4.-Salir");
-					System.out.println("Ingrese el tipo de prenda deseado");
+					System.out.println("1.-Nightgown");
+					System.out.println("2.-Socks");
+					System.out.println("3.-Briefs/knickers");
+					System.out.println("4.-Exit");
+					System.out.println("Type the number corresponding to the desired garment");
 					op = sc.nextInt();
 					switch (op) {
 					case 1:
-						System.out.println("Playera");
-						System.out.print("Precio: ");
-						precio = sc.nextFloat();
-						t = t + precio;
+						System.out.println("Nightgown");
+						System.out.print("cost: ");
+						cost = sc.nextFloat();
+						t = t + cost;
 						break;
 					case 2:
-						System.out.println("Calsetines ");
-						System.out.print("Precio: ");
-						precio = sc.nextFloat();
-						t = t + precio;
+						System.out.println("Socks ");
+						System.out.print("cost: ");
+						cost = sc.nextFloat();
+						t = t + cost;
 						break;
 					case 3:
-						System.out.println("Calzonsillos/tangas ");
-						System.out.print("Precio: ");
-						precio = sc.nextFloat();
-						t = t + precio;
+						System.out.println("Briefs/knickers ");
+						System.out.print("cost: ");
+						cost = sc.nextFloat();
+						t = t + cost;
 						break;
 					case 4:
 						q = 1;
@@ -146,75 +146,75 @@ public class program1 {
 			case 4:
 				do {
 
-					System.out.println("Metodo de pago");
-					System.out.println("1.-Tarjeta");
-					System.out.println("2.-Contado");
-					System.out.println("3.-Imprime Tiked");
-					System.out.println("4.-Salir");
-					System.out.println("Ingrese el modo de pago y posteriormente imprime el tiked");
+					System.out.println("Payment method");
+					System.out.println("1.-Card");
+					System.out.println("2.-Counted");
+					System.out.println("3.-Print ticket");
+					System.out.println("4.-Exit");
+					System.out.println("Enter the payment method and then print the ticket");
 					op = sc.nextInt();
 					switch (op) {
 					case 1:
-						System.out.println("Tarjeta");
-						System.out.print("Ingrese numero de tarjeta: ");
+						System.out.println("Card");
+						System.out.print("Enter card number: ");
 						m = sc.next();
-						System.out.println("Ingrese banco: ");
+						System.out.println("Enter bank: ");
 						banco = sc.next();
 
-						System.out.println("Fecha: " + fecha);
-						System.out.println("Transaccion validada por el vendedor: " + vendedor + " por $" + t
-								+ " pesos al banco " + banco + ", numero de tarjeta: " + m);
-						System.out.println("Grasias por su visita se�or@ " + nombres + " vuelva pronto");
+						System.out.println("Date: " + Date);
+						System.out.println("Transaction validated by the seller: " + vendedor + " for $" + t
+								+ " to the bank " + banco + ", card number: " + m);
+						System.out.println("Thank you for your visit sir/madam " + nombres + " come back soon");
 						System.out.println("\n");
+
 						break;
 					case 2:
-						System.out.println("Contado ");
-						System.out.println("Total a pagar: " + t);
+						System.out.println("Counted ");
+						System.out.println("Total to pay: " + t);
 
-						System.out.println("Fecha: " + fecha);
-						System.out.println("Pago validado por el vendedor: " + vendedor + " por $" + t + " pesos.");
-						System.out.println("Grasias por su visita se�or@ " + nombres + " vuelva pronto.");
+						System.out.println("Date: " + Date);
+						System.out.println("Transaction validated by the seller: " + vendedor + " for $" + t + " dollars.");
+						System.out.println("Thank you for your visit sir/madam " + nombres + " come back soon.");
 						System.out.println("\n");
-						System.out.println("Imprimir tiked de pago");
+						System.out.println("Print payment receipt");
+
+						/*String osName = System.getProperties().getProperty("os.name");
+						System.out.println("onde vergas estoy toy " + osName + " asu makina XD");*/
 
 						break;
 					case 3:
-						
-						String ruta = System.getProperties().getProperty("user.dir");
-						//String ruta2 = ruta1 + "Tiked.txt";
-						File archivo = new File(ruta);
-						BufferedWriter bw;
+					String ruta = System.getProperties().getProperty("user.dir/tiked.txt", "tiked.txt");
+					File archivo = new File(ruta);
+					BufferedWriter bw;
 
-						if (archivo.exists()) {
-							bw = new BufferedWriter(new FileWriter(archivo));
-							bw.write("-----------Tiked de pago----------------\n");
-							bw.write("-------Servicios de consulta medica ----\n");
-							bw.write("-----------LIFE LINE MEDICAL---------- -\n");
-							bw.write("Se�or: \n");
-							bw.write("-----" + nombres + "----\n");
-							bw.write("El presio a pagar es: \n");
-							bw.write("-----$" + t + "----\n");
-							bw.write("Fecha de expedicion: \n");
-							bw.write("-----" + fecha + "----\n");
-							bw.write("Quien lo atendio: \n");
-							bw.write("-----" + vendedor + "----\n");
-							bw.write("-----Grasias pro su preferencia----");
-						} else {
-							bw = new BufferedWriter(new FileWriter(archivo));
-							bw.write("-----------Tiked de pago----------------\n");
-							bw.write("-------Servicios de consulta medica ----\n");
-							bw.write("-----------LIFE LINE MEDICAL---------- -\n");
-							bw.write("Se�or: \n");
-							bw.write("-----" + nombres + "----\n");
-							bw.write("El presio a pagar es: \n");
-							bw.write("-----$" + t + "----\n");
-							bw.write("Fecha de expedicion: \n");
-							bw.write("-----" + fecha + "----\n");
-							bw.write("Quien lo atendio: \n");
-							bw.write("-----" + vendedor + "----\n");
-							bw.write("-----Grasias pro su preferencia----");
-						}
-						bw.close();
+					if (archivo.exists()) {
+						bw = new BufferedWriter(new FileWriter(archivo));
+						bw.write("----------Payment ticket----------\n");
+						bw.write("--------The Penguin--------\n");
+						bw.write("Sir/Madam: \n");
+						bw.write(": " + nombres + "\n");
+						bw.write("The price to pay is: \n");
+						bw.write("$ " + t + "\n");
+						bw.write("Expedition date: \n");
+						bw.write(": " + Date + "\n");
+						bw.write("Who attended him: \n");
+						bw.write(": " + vendedor + "\n");
+						bw.write("-----Thanks for your preference-----");
+					} else {
+						bw = new BufferedWriter(new FileWriter(archivo));
+						bw.write("----------Payment ticket----------\n");
+						bw.write("--------The Penguin--------\n");
+						bw.write("Sir/Madam: \n");
+						bw.write(": " + nombres + "\n");
+						bw.write("The price to pay is: \n");
+						bw.write("$ " + t + "\n");
+						bw.write("Expedition date: \n");
+						bw.write(": " + Date + "\n");
+						bw.write("Who attended him: \n");
+						bw.write(": " + vendedor + "\n");
+						bw.write("-----Thanks for your preference-----");
+					}
+					bw.close();
 						break;
 					case 4:
 						w = 1;
@@ -226,8 +226,7 @@ public class program1 {
 			case 5:
 				a = 1;
 				break;
-
 			}
 		} while (a == 0);
-	} // fin de la 2� clase
-} // fin de la primera clase
+	}
+}
