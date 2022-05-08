@@ -24,7 +24,7 @@ public class Medical_prescription extends JFrame {
 
 	public Medical_prescription() {
 
-		setTitle("Consulatorio Medico");
+		setTitle("Doctor's office");
 		setSize(1200, 700);
 		p.setBackground(Color.black);
 		p.setLayout(null);
@@ -32,16 +32,16 @@ public class Medical_prescription extends JFrame {
 		Container zona = getContentPane();
 		zona.add(p);
 
-		boton = new JButton(new ImageIcon("Imges/medico.png")); /* boton de cita medica */
-		boton1 = new JButton(new ImageIcon("Imges/reseta.png")); /* boton de receta */
+		boton = new JButton(new ImageIcon("Imges/medico.png")); /* medical appointment button */
+		boton1 = new JButton(new ImageIcon("Imges/reseta.png")); /* recipe button */
 
-		String texto = "Ir a consulta";
+		String texto = "Go to consultation";
 		boton.setToolTipText(texto);
 
-		String texto1 = "De momento el doctor no esta";
+		String texto1 = "At the moment the doctor is not";
 		boton1.setToolTipText(texto1);
 
-		boton.setBorderPainted(false); /* esta parte de aqui es para la transparencia de los botones */
+		boton.setBorderPainted(false); /* this part here is for the transparency of the buttons */
 		boton.setContentAreaFilled(false);
 		boton.setFocusPainted(false);
 		boton.setOpaque(false);
@@ -51,18 +51,18 @@ public class Medical_prescription extends JFrame {
 		boton1.setFocusPainted(false);
 		boton1.setOpaque(false);
 
-		Logo = new JLabel(); /* declaracion de los labels para la imagenes */
+		Logo = new JLabel();
 		Nombre = new JLabel();
 		Gif1 = new JLabel();
 		Gif2 = new JLabel();
 
 		fondo = new JLabel();
 
-		Logo = new JLabel(new ImageIcon("Imges/logo.jpg")); /* imagen del logo del consultorio */
-		Nombre = new JLabel(new ImageIcon("Imges/nombre.png")); /* imagen del nobre del consultorio */
+		Logo = new JLabel(new ImageIcon("Imges/logo.jpg")); /* practice logo image */
+		Nombre = new JLabel(new ImageIcon("Imges/nombre.png")); /* office name image */
 		Gif1 = new JLabel(new ImageIcon("Imges/corona.gif"));
 		Gif2 = new JLabel(new ImageIcon("Imges/corn2.jpg"));
-		Gif3 = new JButton(new ImageIcon("Imges/susan.png")); /* imagen del gif alucivo al sars cov II */
+		Gif3 = new JButton(new ImageIcon("Imges/susan.png")); /* hallucinatory gif image to sars cov II */
 
 		Gif3.setBorderPainted(false);
 		Gif3.setContentAreaFilled(false);
@@ -71,7 +71,7 @@ public class Medical_prescription extends JFrame {
 
 		fondo = new JLabel(new ImageIcon("Imges/fondo.jpg")); /* imagen de fondo */
 
-		boton.setBounds(50, 175, 300, 350); /* posicionamiento de los botones e imagenes */
+		boton.setBounds(50, 175, 300, 350);
 		boton1.setBounds(825, 175, 300, 350);
 
 		Logo.setBounds(0, 0, 150, 150);
@@ -82,7 +82,7 @@ public class Medical_prescription extends JFrame {
 
 		fondo.setBounds(0, 150, 1200, 400);
 
-		p.add(boton); /* se agregan al panel todos los botones y cosas de la interfaz */
+		p.add(boton);
 		p.add(boton1);
 		p.add(Logo);
 		p.add(Nombre);
@@ -101,14 +101,11 @@ public class Medical_prescription extends JFrame {
 				}
 			}
 		});
-
 		setVisible(true);
-
 	}
 
 	public static void main(String... RODRIGO) {
 		Medical_prescription Rodrigo = new Medical_prescription();
 		Rodrigo.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
-
 }
