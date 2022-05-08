@@ -29,11 +29,11 @@ public class consulta extends JFrame {
 
 	JRadioButton c = new JRadioButton();
 	Checkbox c1 = new Checkbox("Canser");
-	Checkbox c2 = new Checkbox("Tos");
-	Checkbox c3 = new Checkbox("Progeria");
-	Checkbox c4 = new Checkbox("Elefantiasis");
-	Checkbox c5 = new Checkbox("Argiria");
-	Checkbox c6 = new Checkbox("Tricotiloman�a");
+	Checkbox c2 = new Checkbox("Runny Nose");
+	Checkbox c3 = new Checkbox("Headache");
+	Checkbox c4 = new Checkbox("Chickenpox");
+	Checkbox c5 = new Checkbox("Fever");
+	Checkbox c6 = new Checkbox("Sneeze");
 
 	protected String[] reseta;
 
@@ -41,7 +41,7 @@ public class consulta extends JFrame {
 
 	public consulta() throws IOException {
 
-		setTitle("Consulta Medica");
+		setTitle("Doctor's office");
 		setSize(600, 750);
 		p.setBackground(Color.gray);
 		p.setLayout(null);
@@ -50,34 +50,34 @@ public class consulta extends JFrame {
 
 		zona.add(p);
 
-		/*--------------------------area del logo y principio---------------------*/
+		/*--------------------------logo area and principle---------------------*/
 
-		Logo = new JLabel(); /* declaracion de los labels para la imagenes */
+		Logo = new JLabel();
 		Nombre = new JLabel();
 		Gif = new JLabel();
 
-		Logo = new JLabel(new ImageIcon("Imges/logo.jpg")); /* imagen del logo del consultorio */
-		Nombre = new JLabel(new ImageIcon("Imges/nombre2.png")); /* imagen del nobre del consultorio CAMBIRA EL FONOD */
-		Gif = new JLabel(new ImageIcon()); /* imagen del gif alucivo al sars cov II CAMBIAR EL FONODO */
+		Logo = new JLabel(new ImageIcon("Imges/logo.jpg"));
+		Nombre = new JLabel(new ImageIcon("Imges/nombre2.png"));
+		Gif = new JLabel(new ImageIcon());
 
-		/*-----------------------------area de pago y salida-----------------------------*/
+		/*-----------------------------payment and exit area-----------------------------*/
 
 		salir = new JButton(new ImageIcon("Img/atras (1).png"));
 		costo = new JTextField();
-		cost = new JLabel("El presio a pagar es: ");
+		cost = new JLabel("The price to pay is: ");
 		Total = new JButton("Total");
-		Limpiar = new JButton("Limpiar");
-		Impri = new JButton("Imprimir tiked de pago");
+		Limpiar = new JButton("Clean");
+		Impri = new JButton("Print payment receipt");
 
-		String texto = "Regresar";
+		String texto = "Go back";
 		salir.setToolTipText(texto);
 
 		cost.setForeground(Color.orange);
-		cost.setFont(new java.awt.Font("Comic Sans MS", 2, 20));
+		cost.setFont(new java.awt.Font("comfortaa", 2, 20));
 
 		costo.setBorder(new javax.swing.border.LineBorder(Color.yellow, 3, true));
 		costo.setBackground(Color.blue);
-		costo.setFont(new java.awt.Font("Comic Sans MS", 2, 20));
+		costo.setFont(new java.awt.Font("comfortaa", 2, 20));
 		costo.setForeground(Color.pink);
 
 		salir.setFont(new java.awt.Font("Consolas", 2, 20));
@@ -89,84 +89,84 @@ public class consulta extends JFrame {
 		Total.setBackground(new java.awt.Color(8, 173, 100));
 		Limpiar.setBackground(new java.awt.Color(8, 173, 100));
 		Impri.setBackground(new java.awt.Color(8, 173, 100));
-		/*--------------------------------primera parte------------------------------*/
-		nom = new JLabel("Nombre�s: ");
-		apll = new JLabel("Apellidos�s: ");
+		/*--------------------------------1° part------------------------------*/
+		nom = new JLabel("Name: ");
+		apll = new JLabel("Surname: ");
 		no = new JTextField();
 		apl = new JTextField();
 
 		nom.setForeground(Color.lightGray);
 		apll.setForeground(Color.orange);
 ;
-		nom.setFont(new java.awt.Font("Segoe UI Semibold", 5, 30));
-		apll.setFont(new java.awt.Font("Comic Sans MS", 2, 20));
+		nom.setFont(new java.awt.Font("mononoki Nerd Font", 5, 30));
+		apll.setFont(new java.awt.Font("comfortaa", 2, 20));
 
 		no.setBorder(new javax.swing.border.LineBorder(Color.yellow, 3, true));
 		no.setBackground(Color.blue);
 		apl.setBorder(new javax.swing.border.LineBorder(Color.yellow, 3, true));
 		apl.setBackground(Color.blue);
 
-		no.setFont(new java.awt.Font("Comic Sans MS", 2, 20));
-		apl.setFont(new java.awt.Font("Comic Sans MS", 2, 20));
+		no.setFont(new java.awt.Font("comfortaa", 2, 20));
+		apl.setFont(new java.awt.Font("comfortaa", 2, 20));
 
 		no.setForeground(Color.pink);
 		apl.setForeground(Color.pink);
 
-		/*-----------------------------------segunda parte-----------------------------------*/
+		/*-----------------------------------second part-----------------------------------*/
 
-		edad = new JLabel("Seleccoine su edad. ");
-		sex = new JLabel("seleccione su sexo. ");
-		estado = new JLabel("Estado de procedencia. ");
+		edad = new JLabel("Select your age. ");
+		sex = new JLabel("Select your gender. ");
+		estado = new JLabel("State of origin. ");
 		est = new JComboBox<String>();
 		sets = new JComboBox<String>();
 		ed = new JComboBox<String>();
 
 		est.setForeground(Color.green);
-		est.setFont(new java.awt.Font("Comic Sans MS", 2, 15));
+		est.setFont(new java.awt.Font("comfortaa", 2, 15));
 
 		sets.setForeground(Color.green);
-		sets.setFont(new java.awt.Font("Comic Sans MS", 2, 15));
+		sets.setFont(new java.awt.Font("comfortaa", 2, 15));
 
 		ed.setForeground(Color.green);
-		ed.setFont(new java.awt.Font("Comic Sans MS", 2, 15));
+		ed.setFont(new java.awt.Font("comfortaa", 2, 15));
 
 		edad.setForeground(Color.orange);
-		edad.setFont(new java.awt.Font("Comic Sans MS", 2, 20));
+		edad.setFont(new java.awt.Font("comfortaa", 2, 20));
 
 		sex.setForeground(Color.orange);
-		sex.setFont(new java.awt.Font("Comic Sans MS", 2, 20));
+		sex.setFont(new java.awt.Font("comfortaa", 2, 20));
 
 		estado.setForeground(Color.orange);
-		estado.setFont(new java.awt.Font("Comic Sans MS", 2, 20));
+		estado.setFont(new java.awt.Font("comfortaa", 2, 20));
 
-		/*----------------------------------ultima parte-------------------------------------*/
-		enfcro = new JLabel("�Esta contagiado del coronavirus? ");
+		/*----------------------------------last part-------------------------------------*/
+		enfcro = new JLabel("Are you infected with the coronavirus? ");
 
 		a1.setForeground(Color.black);
-		a1.setFont(new java.awt.Font("Comic Sans MS", 2, 14));
+		a1.setFont(new java.awt.Font("comfortaa", 2, 14));
 		a2.setForeground(Color.black);
-		a2.setFont(new java.awt.Font("Comic Sans MS", 2, 14));
+		a2.setFont(new java.awt.Font("comfortaa", 2, 14));
 
-		sintoma = new JButton("seleccione los sintomas que padese.");
+		sintoma = new JButton("select the symptoms you suffer from.");
 		sintoma.setBounds(90, 400, 440, 30);
 
 		enfcro.setForeground(Color.orange);
-		enfcro.setFont(new java.awt.Font("Comic Sans MS", 2, 20));
+		enfcro.setFont(new java.awt.Font("comfortaa", 2, 20));
 
 		sintoma.setFont(new java.awt.Font("Consolas", 2, 20));
 		sintoma.setBackground(new java.awt.Color(8, 173, 100));
 
-		/*--------------------------------------------acciones de los botones--------------*/
+		/*-------------------------------------------accion buttons--------------*/
 
-		sintoma.addActionListener(new ActionListener() { // a�adir a la lista
+		sintoma.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent v) {
 
-				c1.setFont(new java.awt.Font("Comic Sans MS", 2, 18));
-				c2.setFont(new java.awt.Font("Comic Sans MS", 2, 18));
-				c3.setFont(new java.awt.Font("Comic Sans MS", 2, 18));
-				c4.setFont(new java.awt.Font("Comic Sans MS", 2, 18));
-				c5.setFont(new java.awt.Font("Comic Sans MS", 2, 18));
-				c6.setFont(new java.awt.Font("Comic Sans MS", 2, 18));
+				c1.setFont(new java.awt.Font("comfortaa", 2, 18));
+				c2.setFont(new java.awt.Font("comfortaa", 2, 18));
+				c3.setFont(new java.awt.Font("comfortaa", 2, 18));
+				c4.setFont(new java.awt.Font("comfortaa", 2, 18));
+				c5.setFont(new java.awt.Font("comfortaa", 2, 18));
+				c6.setFont(new java.awt.Font("comfortaa", 2, 18));
 
 				c1.setBounds(25, 430, 100, 30);
 				c2.setBounds(230, 430, 100, 30);
@@ -236,19 +236,19 @@ public class consulta extends JFrame {
 
 		Impri.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent v) {
-				String ruta = "/home/rodrigo/Escritorio/tiket.txt";
+				String ruta = System.getProperties().getProperty("user.dir/tiked.txt", "tiked.txt");
 				try {
 					File arch = new File(ruta);
 					FileWriter ro = new FileWriter(arch, true);
 
-					ro.write("-----------Tiked de pago----------------\n");
-					ro.write("-------Servicios de consulta medica ----\n");
+					ro.write("-----------Payment ticket----------------\n");
+					ro.write("-------Medical consultation services----\n");
 					ro.write("-----------LIFE LINE MEDICAL---------- -\n");
-					ro.write("-------EL PRECIO A PAGAR ES: -----------\n");
-					ro.write("-------" + costo.getText() + " pesos---------------------\n");
-					ro.write("-------sen�or@: " + no.getText() + "-----------------\n");
-					ro.write("-------con apellidos: " + apl.getText() + "------\n");
-					ro.write("-------Grasias por su preferencia-------");
+					ro.write("-------THE PRICE TO PAY IS: -----------\n");
+					ro.write("-------" + costo.getText() + " dollars---------------------\n");
+					ro.write("-------madam/gentleman: " + no.getText() + "-----------------\n");
+					ro.write("-------with surnames: " + apl.getText() + "------\n");
+					ro.write("-------Thanks for your preference-------");
 					ro.close();
 				} catch (Exception er) {
 					System.out.println("error" + er);
@@ -301,7 +301,7 @@ public class consulta extends JFrame {
 
 		/*----------------------------------esto es para los combobox--------------------*/
 		p.add(est);
-		est.addItem("Elige una opcion");
+		est.addItem("Choose an option");
 		est.addItem("Edomex");
 		est.addItem("CDMX");
 		est.addItem("Hidalgo");
@@ -311,16 +311,16 @@ public class consulta extends JFrame {
 		est.addItem("Michoacan");
 
 		p.add(sets);
-		sets.addItem("Elige una opcion");
-		sets.addItem("Hombre");
-		sets.addItem("Mujer");
+		sets.addItem("Choose an option");
+		sets.addItem("Men");
+		sets.addItem("Woman");
 		sets.addItem("Gay");
 		sets.addItem("Bisexual");
-		sets.addItem("Pansexual");
+		sets.addItem("Non binary");
 		sets.addItem("Asexual");
 
 		p.add(ed);
-		ed.addItem("Elige una opcion");
+		ed.addItem("Choose an option");
 		ed.addItem("18 a 25");
 		ed.addItem("26 a 35");
 		ed.addItem("36 a 45");
