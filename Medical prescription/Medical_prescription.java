@@ -91,21 +91,37 @@ public class Medical_prescription extends JFrame {
 		p.add(Gif3);
 		p.add(fondo);
 
-		boton.addActionListener(new ActionListener() {
+		/*boton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent v) {
 				try {
-					new consulta();
+					new consulta(); 
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
+		});*/
+
+		boton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent v) { 
+				consulta abrir;
+				try {
+					abrir = new consulta();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} 
+				//abrir.main(consulta);
+
+			}
 		});
-		setVisible(true);
+		//setVisible(true);
 	}
 
 	public static void main(String... RODRIGO) {
 		Medical_prescription Rodrigo = new Medical_prescription();
 		Rodrigo.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		Rodrigo.setVisible(true);
+		Rodrigo.setResizable(false);
 	}
 }

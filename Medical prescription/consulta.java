@@ -353,6 +353,7 @@ public class consulta extends JFrame {
 		consulta Rodrigo = new consulta();
 		Rodrigo.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Rodrigo.setVisible(true);
+		Rodrigo.setResizable(false);
 	}
 
 }
