@@ -4,10 +4,10 @@ This is a program in java, for medical consultation, where you select your sympt
 
 to compile is as follows: javac **`Medical_prescription.java`** and with: **`java Medical_prescription`**.
 
-![App Screenshot](https://github.com/shapzo/Programs-in-java/blob/main/Medical%20prescription/Imges/Screnshots/capt1.png?raw=true)
+![App Screenshot](https://github.com/shapzo/Programs-in-java/blob/main/Medical%20prescription/Images/Screnshots/capt1.png?raw=true)
 
 
-![App Screenshot](https://github.com/shapzo/Programs-in-java/blob/main/Medical%20prescription/Imges/Screnshots/catp2.png?raw=true)
+![App Screenshot](https://github.com/shapzo/Programs-in-java/blob/main/Medical%20prescription/Images/Screnshots/catp2.png?raw=true)
 
 ## Author
 
